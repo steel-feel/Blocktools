@@ -27,19 +27,19 @@ nav.visible-m
 
 
 </style>
-<div class="sm:p-8 p-2 bg-grey-100">
+<div class="sm:p-8 p-2 bg-grey-300 z-0">
     <div class="p-1 flex place-content-between md:grid md:grid-cols-3">
         <a href="#"
             ><img class="w-40 h-12" src="assests/logo2.svg" alt="Logo" /></a
         >
-        <img
+        <!-- <img
             on:click={openMenu}
             class="md:hidden w-6 h-6 cursor-pointer"
             src="assests/menu.svg"
             alt="Open Navigation"
-        />
+        /> -->
 
-
+<!-- 
         <nav   class="md:flex md:static md:justify-end md:bg-transparent md:z-0 md:flex-row-reverse w-0 md:w-full opacity-0 md:opacity-100 h-screen md:h-auto z-50 p-2 transition-all ease-in fixed top-0 right-0 bg-gray-100"
                 class:visible-m={bmenuOpen} >
             <img
@@ -49,13 +49,12 @@ nav.visible-m
                 alt="Close Navigation"
             />
             <ul class="list-none md:flex m-3">
-                <!-- Shift+Alt+[down-arrow-key] for replicating line-->
+              
                 <li class="font-bold hover:bg-blue">
                     <a class="no-underline text-lg  p-1 text-black " on:click={closeMenu} href="#main">Home</a>
                 </li>
-                <!-- <li><a on:click={closeMenu} href="#work">My Work</a></li>
-                <li><a on:click={closeMenu} href="#contact">Contact</a></li> -->
+               
             </ul>
-        </nav>
+        </nav> -->
     </div>
 </div>
