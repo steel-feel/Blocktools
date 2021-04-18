@@ -50,8 +50,8 @@ nav.visible-m
             />
             <ul class="list-none md:flex m-3">
                 <!-- Shift+Alt+[down-arrow-key] for replicating line-->
-                <li class="font-bold">
-                    <a on:click={closeMenu} href="#main">Home</a>
+                <li class="font-bold hover:bg-blue">
+                    <a class="no-underline text-lg  p-1 text-black " on:click={closeMenu} href="#main">Home</a>
                 </li>
                 <!-- <li><a on:click={closeMenu} href="#work">My Work</a></li>
                 <li><a on:click={closeMenu} href="#contact">Contact</a></li> -->
