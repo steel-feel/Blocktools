@@ -1,7 +1,7 @@
 <script>
     import { ethers } from "ethers";
     let value;
-    let Hash;
+  
     $: Hash = ethers.utils.id(value || "");
 
     function copytoClip(){
