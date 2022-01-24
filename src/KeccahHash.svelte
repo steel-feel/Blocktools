@@ -1,6 +1,6 @@
 <script>
     import { ethers } from "ethers";
-    let value;
+    let value="";
   
     $: Hash = ethers.utils.id(value || "");
 
@@ -20,6 +20,7 @@
             name="comment"
             rows="5"
             cols="40"
+            bind:value 
         />
     </label>
    
